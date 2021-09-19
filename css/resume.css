@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .header{
+    width: 100%;
+    height: auto;
+    background: white;
+    text-align: center;
+    line-height: 0.6;
+    box-shadow: 0 0 100px 0px black;
+    margin-bottom: 2%;
+    }
+    
+    .container1{	  
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 2%;
+    margin-bottom: 2%;
+    }
+    .innerBox{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 6%;
+    margin-bottom: 2%;
+    line-height: 2;
+    }
+    
+    #input{
+    display:flex;
+    flex-direction: column;
+    padding-top: 0%;
+    }
+    
+    #ipbox{
+    border: none;
+    background: #e6e6ff;
+    height: 28px;
+    padding-left: 18px;
+    border-radius: 6px;
+    }
+    
+    .city{
+    display:flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    }
+    
+    #ipbox1{
+    border: none;
+    background: #e6e6ff;
+    height: 20px;
+    padding-left: 9px;
+    border-radius: 6px;
+    }
+    
+    #input1{
+    display:flex;
+    flex-direction: column;
+    }
+    
+    #textarea{
+    width: 100%;
+    border: none;
+    background: #e6e6ff;
+    height: 80px;
+    padding-left: 2px;
+    border-radius: 6px;
+    }
+    
+    #addBtn{
+    width: 90px;
+    height: 30px;
+    align-self: center;
+    margin-top:3%;
+    background: #08C0F3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    
+    }
+    
+    #inputtype1{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    }
+    
+    #date{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .ipbox2 {
+    border: none;
+    background: #e6e6ff;
+    height: 20px;
+    padding-left: 9px;
+    border-radius: 6px;
+    height: 28px;
+    }
+    
+    .descriptionBox {
+    border: none;
+    background: #e6e6ff;
+    height: 60px;
+    padding-left: 9px;
+    border-radius: 6px;
+    }
+    
+    #date1{
+    display:flex;
+    flex-direction: column;
+    }
+
+    
