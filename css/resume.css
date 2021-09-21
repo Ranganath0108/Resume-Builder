@@ -4,6 +4,7 @@ body{
     background: lightgrey;
     display: flex;
     flex-direction: column;
+    font-family: 'poppins', sans-serif;
     }
     
     .header{
@@ -30,13 +31,13 @@ body{
     line-height: 2;
     }
     
-    #input{
+    .input{
     display:flex;
     flex-direction: column;
     padding-top: 0%;
     }
     
-    #ipbox{
+    .ipbox{
     border: none;
     background: #e6e6ff;
     height: 28px;
@@ -50,7 +51,7 @@ body{
     justify-content: space-between;
     }
     
-    #ipbox1{
+    .ipbox1{
     border: none;
     background: #e6e6ff;
     height: 20px;
@@ -58,13 +59,14 @@ body{
     border-radius: 6px;
     }
     
-    #input1{
+    .input1{
     display:flex;
     flex-direction: column;
     }
     
-    #textarea{
+    .textarea{
     width: 100%;
+    resize: vertical;
     border: none;
     background: #e6e6ff;
     height: 80px;
@@ -72,26 +74,38 @@ body{
     border-radius: 6px;
     }
     
-    #addBtn{
+    .addBtn{
     width: 90px;
     height: 30px;
-    align-self: center;
+    text-align: center;
     margin-top:3%;
     background: #08C0F3;
     color: white;
     border: none;
     border-radius: 3px;
     font-weight: 600;
-    
     }
+
+    .removeBtn{
+        width: 90px;
+        height: 30px;
+        text-align: center;
+        margin-top:3%;
+        background: #d0312d;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        font-weight: 600;
+        display: none;
+        }
     
-    #inputtype1{
+    .inputtype1{
     display: flex;
     flex-direction: column;
     line-height: 1.5;
     }
     
-    #date{
+    .date{
     display: flex;
     justify-content: space-between;
     }
@@ -107,15 +121,40 @@ body{
     
     .descriptionBox {
     border: none;
+    resize: vertical;
     background: #e6e6ff;
     height: 60px;
     padding-left: 9px;
     border-radius: 6px;
     }
     
-    #date1{
+    .date1{
     display:flex;
     flex-direction: column;
     }
 
-    
+/* #subHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    */
+
+.footer{
+    width: 100%;
+    height: 80px;
+    padding-top: 0px;
+    margin-top: auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+.footer .submitButton{
+    width: 150px;
+    height: 40px;
+    margin-top: 1.5%;
+    border: none;
+    border-radius: 2px;
+    background-color: #08C0F3;
+    color: #fff;
+    font-weight: 700;
+}

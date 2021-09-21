@@ -2,326 +2,327 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Resume Builder</title>
-	<link rel="stylesheet" href="./css/resume.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="./css/resume.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<!-- header -->
-	<div class="header">
-		<h1>Resume Maker</h1>
-		<h4>Welcome!</h4>
-	</div>
-	<!-- personal details-->
-	<div class="container1">
-		<div class="innerBox">
-			<!-- profile -->
-			<div>
-				<h4>Profile</h4>
-			</div>
-			<div class="photoField">
-				<label for="photo">Photo</label>
-				<input type="file" id="photo">
-			</div>
-			<div class="nameField" id="input">
-				<label for="fullName">Full name</label>
-				<input type="text" id="ipbox" placeholder="Enter your title, first- and last name" id="fullName"
-					class="form-control">
-			</div>
+    <!-- header -->
+    <div class="header">
+        <h1>Resume Maker</h1>
+        <h2>Welcome!</h2>
+    </div>
+    <!-- personal details-->
+    <div class="container1">
+        <div class="innerBox">
+            <!-- profile -->
+            <div>
+                <h2>Profile</h2>
+            </div>
+            <div class="photoField">
+                <label for="photo">Photo</label>
+                <input type="file" id="photo">
+            </div>
+            <div id="nameField" class="input">
+                <label for="fullName">Full name</label>
+                <input type="text" class="ipbox" placeholder="Enter your title, first- and last name" id="fullName"
+                    class="form-control">
+            </div>
 
-			<div class="emailField" id="input">
-				<label for="email">Email</label>
-				<input type="email" placeholder="Displayed on resume" id="ipbox" id="email" class="form-control">
-			</div>
+            <div id="emailField" class="input">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Displayed on resume" class="ipbox" id="email" class="form-control">
+            </div>
 
+            <div id="contactField" class="input">
+                <label for="contact">Phone</label>
+                <input type="number" placeholder="Enter phone" class="ipbox" id="contact">
+            </div>
 
-			<div class="contactField" id="input">
-				<label for="contact">Phone</label>
-				<input type="number" placeholder="Enter phone" id="ipbox" id="contact" class="form-control">
-			</div>
+            <div id="addressField" class="input">
+                <label for="address">Street</label>
+                <input type="text-area" placeholder="Enter address" class="ipbox" id="address">
+            </div>
 
-			<div class="addressField" id="input">
-				<label for="address">Street</label>
-				<input type="text-area" placeholder="Enter address" id="ipbox" id="address" class="form-control">
-			</div>
+            <div id="city" class="date">
+                <div id="cityField" class="date1">
+                    <label for="cityip">City</label>
+                    <input type="text" placeholder="Enter city" class="ipbox" id="cityip">
+                </div>
 
-			<div class="city">
-				<div class="cityField">
-					<label for="cityip">City</label>
-					<input type="text" placeholder="Enter city" id="ipbox1" id="cityip" class="form-control">
-				</div>
+                <div id="postField" class="date1">
+                    <label for="postcode">Postcode</label>
+                    <input type="number" placeholder="Enter postcode" class="ipbox" id="postcode">
+                </div>
+            </div>
 
-				<div class="postField">
-					<label for="postcode">Postcode</label>
-					<input type="number" placeholder="Enter postcode" id="ipbox1" id="postcode" class="form-control">
-				</div>
-			</div>
+            <div id="countryField" class="input">
+                <label for="countryip">Country</label>
+                <input type="text" placeholder="Enter country" class="ipbox" id="countryip">
+            </div>
+        </div>
+    </div>
 
-			<div class="countryField" id="input">
-				<label for="countryip">Country</label>
-				<input type="text" placeholder="Enter country" id="ipbox" id="countryip" class="form-control">
-			</div>
-		</div>
-	</div>
+    <div class="container1">
+        <!-- socials -->
+        <div class="innerBox">
+            <div class="subHead">
+                <h2>Socials</h2>
+                <!-- <input type="checkbox"></input> -->
+            </div>
+            <div id="fbField" class="input">
+                <label for="facebook">Facebook</label>
+                <input type="text" placeholder="Enter Facebook" class="ipbox" id="facebook">
+            </div>
 
-	<div class="container1">
-		<!-- socials -->
-		<div class="innerBox">
-			<div>
-				<h4>Socials</h4>
-			</div>
-			<div class="fbField" id="input1">
-				<label for="facebook">Facebook</label>
-				<input type="text" placeholder="Enter Facebook" id="ipbox" id="facebook" class="form-control">
-			</div>
+            <div id="instaField" class="input">
+                <label for="instagram">Instagram</label>
+                <input type="text" placeholder="Enter Instagram" class="ipbox" id="instagram">
+            </div>
 
-			<div class="instaField" id="input">
-				<label for="instagram">Instagram</label>
-				<input type="text" placeholder="Enter Instagram" id="ipbox" id="instagram" class="form-control">
-			</div>
+            <div id="linkedinField" class="input">
+                <label for="linkedin">LinkedIn</label>
+                <input type="text" placeholder="Enter LinkedIn" class="ipbox" id="linkedin">
+            </div>
 
-			<div class="linkedinField" id="input">
-				<label for="linkedin">LinkedIn</label>
-				<input type="text" placeholder="Enter LinkedIn" id="ipbox" id="linkedin" class="form-control">
-			</div>
+            <div id="githubField" class="input">
+                <label for="github">Github</label>
+                <input type="text" placeholder="Enter GitHub" class="ipbox" id="github">
+            </div>
+        </div>
+    </div>
 
-			<div class="githubField" id="input">
-				<label for="github">Github</label>
-				<input type="text" placeholder="Enter GitHub" id="ipbox" id="github" class="form-control">
-			</div>
-		</div>
-	</div>
+    <!-- professional Information -->
 
-	<!-- professional Information -->
+    <!-- objective -->
+    <div class="container1">
+        <div class="innerBox">
+            <div>
+                <h2>objective</h2>
+            </div>
+            <div class="objectiveField">
+                <textarea class="textarea">
 
-	<!-- objective -->
-	<div class="container1">
-		<div class="innerBox">
-			<div>
-				<h4>objective</h4>
-			</div>
-			<div class="objectiveField">
-				<textarea id="textarea">
+                </textarea>
+            </div>
+        </div>
+    </div>
 
-							</textarea>
-			</div>
-		</div>
-	</div>
+    <!-- work experience -->
+    <div class="container1">
+        <div class="innerBox" id="we">
+            <div>
+                <h2>Professional experience</h2>
+            </div>
 
-	<!-- work experience -->
-	<div class="container1">
-		<div class="innerBox">
-			<div>
-				<h4>Professional experience</h4>
-			</div>
-			<div class="workField" id="inputtype1">
-				<label for="jobTitle">Job Title</label>
-				<input placeholder="Enter job title" type="text" id="jobTitle" class="ipbox2">
+            <div id="workField" class="input">
+                <label for="jobTitle">Job Title</label>
+                <input placeholder="Enter job title" type="text" id="jobTitle" class="ipbox2">
 
-				</input>
-				<label for="description">Description</label>
-				<textarea id="description" class="descriptionBox">
+                <label for="description">Description</label>
+                <textarea id="description" class="descriptionBox">
 
-							</textarea>
-				<div id="date">
-					<div id="date1">
-						<label for="startDate">Start Date</label>
-						<input type="date" id="startDate" class="ipbox2">
+                </textarea>
+                <div class="date">
+                    <div class="date1">
+                        <label for="startDate">Start Date</label>
+                        <input type="date" id="startDate" class="ipbox2">
+                    </div>
+                    <div class="date1">
+                        <label for="endDate">End Date</label>
+                        <input type="date" id="endDate" class="ipbox2">
+                    </div>
+                </div>
+            </div>
 
-						</input>
-					</div>
-					<div id="date1">
-						<label for="endDate">End Date</label>
-						<input type="date" id="endDate" class="ipbox2">
+            <div id="addWorkBtn" style="align-self: center;">
+                <button class="addBtn" onclick="addJob()">+Add</button>
+                <button class="removeBtn" id="remBtn" onclick="removeJob()">Remove</button>
+            </div>
 
-						</input>
-					</div>
-				</div>
+        </div>
+    </div>
 
-			</div>
-			<button id="addBtn">+Add</button>
-		</div>
-	</div>
+    <!-- education -->
+    <div class="container1">
+        <div class="innerBox">
+            <div>
+                <h2>Education</h2>
+            </div>
+            <div id="eduField" class="input">
+                <label for="degree">Degree</label>
+                <input placeholder="Enter degree" type="text" id="degree" class="ipbox2">
 
-	<!-- education -->
-	<div class="container1">
-		<div class="innerBox">
-			<div>
-				<h4>Education</h4>
-			</div>
-			<div class="eduField" id="input">
-				<label for="degree">Degree</label>
-				<input placeholder="Enter degree" type="text" placeholder="Enter degree" id="degree" class="ipbox2">
+                <label for="description">School/University</label>
+                <input placeholder="Enter School/University" id="description" class="ipbox2">
 
-				</input>
-				<label for="description">School/University</label>
-				<input placeholder="Enter School/University" id="description" class="ipbox2">
+                <div id="we" class="date">
+                    <div class="date1">
+                        <label for="startDate">Start Date</label>
+                        <input type="date" id="startDate" class="ipbox2">
 
-				</input>
-				<div id="date">
-					<div id="date1">
-						<label for="startDate">Start Date</label>
-						<input type="date" id="startDate" class="ipbox2">
+                        </input>
+                    </div>
+                    <div class="date1">
+                        <label for="endDate">End Date</label>
+                        <input type="date" id="endDate" class="ipbox2">
 
-						</input>
-					</div>
-					<div id="date1">
-						<label for="endDate">End Date</label>
-						<input type="date" id="endDate" class="ipbox2">
+                        </input>
+                    </div>
+                </div>
+            </div>
+            <button class="addBtn">+Add</button>
+        </div>
+    </div>
 
-						</input>
-					</div>
-				</div>
-			</div>
-			<button id="addBtn">+Add</button>
-		</div>
-	</div>
+    <!-- projects -->
+    <div class="container1">
+        <div class="innerBox">
+            <div>
+                <h2>projects</h2>
+            </div>
+            <div id="projetsField" class="input">
+                <label for="jobTitle">Job title</label>
+                <input placeholder="Enter job title" type="text" id="jobTitle" class="ipbox2">
 
-	<!-- projects -->
-	<div class="container1">
-		<div class="innerBox">
-			<div>
-				<h4>Projects</h4>
-			</div>
-			<div class="projectsField" id="input">
-				<label for="projects">Project Title</label>
-				<input placeholder="Enter project" type="text" id="degree" class="ipbox2">
+                <label for="description">Description</label>
+                <input id="description" class="ipbox2">
 
-				</input>
-				<label for="description">Description</label>
-				<textarea id="description" class="descriptionBox">
+                <div id="we" class="date">
+                    <div class="date1">
+                        <label for="startDate">Start Date</label>
+                        <input type="date" id="startDate" class="ipbox2">
 
-				</textarea>
-				<div id="date">
-					<div id="date1">
-						<label for="startDate">Start Date</label>
-						<input type="date" id="startDate" class="ipbox2">
+                        </input>
+                    </div>
+                    <div class="date1">
+                        <label for="endDate">End Date</label>
+                        <input type="date" id="endDate" class="ipbox2">
 
-						</input>
-					</div>
-					<div id="date1">
-						<label for="endDate">End Date</label>
-						<input type="date" id="endDate" class="ipbox2">
+                        </input>
+                    </div>
+                </div>
+            </div>
+            <button class="addBtn">+Add</button>
+        </div>
+    </div>
 
-						</input>
-					</div>
-				</div>
-			</div>
-			<button id="addBtn">+Add</button>
-		</div>
-	</div>
+    <!-- awards -->
+    <div class="container1">
+        <div class="innerBox">
+            <div>
+                <h2>Awards</h2>
+            </div>
+            <div id="awardsField" class="input">
+                <label for="awards">Award</label>
+                <input placeholder="Enter award" type="text" id="awards" class="ipbox2">
 
-	<!-- awards -->
-	<div class="container1">
-		<div class="innerBox">
-			<div>
-				<h4>Awards</h4>
-			</div>
-			<div class="awardsField" id="input">
-				<label for="awards">Award</label>
-				<input placeholder="Enter award" type="text" id="awards" class="ipbox2">
+                </input>
+                <label for="description">Description</label>
+                <textarea id="description" class="descriptionBox">
 
-				</input>
-				<label for="description">Description</label>
-				<textarea id="description" class="descriptionBox">
+                 </textarea>
+                <div class="date">
+                    <div class="date1">
+                        <label for="Date">Date</label>
+                        <input type="date" id="Date" class="ipbox2">
+                    </div>
+                </div>
+            </div>
+            <button class="addBtn">+Add</button>
+        </div>
+    </div>
 
-							</textarea>
-				<div id="date">
-					<div id="date1">
-						<label for="Date">Date</label>
-						<input type="date" id="Date" class="ipbox2">
+    <!-- certifications -->
+    <div class="container1">
+        <div class="innerBox">
+            <div>
+                <h2>Certifications</h2>
+            </div>
+            <div id="certificationField" class="input">
+                <input placeholder="Enter certificate" type="text" class="ipbox">
+            </div>
+            <button class="addBtn">+Add</button>
+        </div>
+    </div>
 
-						</input>
-					</div>
-				</div>
-			</div>
-			<button id="addBtn">+Add</button>
-		</div>
-	</div>
+    <!-- skills -->
+    <div class="container1">
+        <div class="innerBox">
+            <div>
+                <h2>Skills</h2>
+            </div>
+            <div id="skillsField" class="input">
+                <input placeholder="Enter skill" type="text" class="ipbox">
 
-	<!-- certifications -->
-	<div class="container1">
-		<div class="innerBox">
-			<div>
-				<h4>Certifications</h4>
-			</div>
-			<div class="certificationField" id="input">
-				<input placeholder="Enter certificate" type="text" id="ipbox">
+                </input>
+            </div>
+            <button class="addBtn">+Add</button>
+        </div>
+    </div>
 
-				</input>
-			</div>
-			<button id="addBtn">+Add</button>
-		</div>
-	</div>
+    <!-- interests -->
+    <div class="container1">
+        <div class="innerBox">
+            <div>
+                <h2>Interests</h2>
+            </div>
+            <div id="interestsField" class="input">
+                <input placeholder="Enter interest" type="text" class="ipbox">
 
-	<!-- skills -->
-	<div class="container1">
-		<div class="innerBox">
-			<div>
-				<h4>Skills</h4>
-			</div>
-			<div class="skillsField" id="input">
-				<input placeholder="Enter skill" type="text" id="ipbox">
+                </input>
+            </div>
+            <button class="addBtn">+Add</button>
+        </div>
+    </div>
 
-				</input>
-			</div>
-			<button id="addBtn">+Add</button>
-		</div>
-	</div>
+    <!-- languages -->
+    <div class="container1">
+        <div class="innerBox">
+            <div>
+                <h2>Languages</h2>
+            </div>
+            <div id="languagesField" class="input">
+                <input placeholder="Enter language" type="text" class="ipbox">
 
-	<!-- interests -->
-	<div class="container1">
-		<div class="innerBox">
-			<div>
-				<h4>Interests</h4>
-			</div>
-			<div class="interestsField" id="input">
-				<input placeholder="Enter interest" type="text" id="ipbox">
+                </input>
+            </div>
+            <button class="addBtn">+Add</button>
+        </div>
+    </div>
 
-				</input>
-			</div>
-			<button id="addBtn">+Add</button>
-		</div>
-	</div>
+    <!-- References -->
+    <div class="container1">
+        <div class="innerBox">
 
-	<!-- languages -->
-	<div class="container1">
-		<div class="innerBox">
-			<div>
-				<h4>Languages</h4>
-			</div>
-			<div class="languagesField" id="input">
-				<input placeholder="Enter language" type="text" id="ipbox">
+            <div>
+                <h2>References</h2>
+            </div>
 
-				</input>
-			</div>
-			<button id="addBtn">+Add</button>
-		</div>
-	</div>
+            <div id="referencesField" class="input">
+                <label for="reference">Title</label>
+                <input placeholder="Enter reference" type="text" id="reference" class="ipbox2">
 
-	<!-- References -->
-	<div class="container1">
-		<div class="innerBox">
-			<div>
-				<h4>References</h4>
-			</div>
-			<div class="referencesField" id="input">
-				<label for="reference">Title</label>
-				<input placeholder="Enter reference" type="text" id="reference" class="ipbox2">
+                <label for="description">Description</label>
+                <textarea type="text" id="description" class="descriptionBox">
 
-				</input>
-				<label for="description">Description</label>
-				<textarea type="text" id="description" class="descriptionBox">
+                </textarea>
 
-							</textarea>
+            </div>
+            <button class="addBtn">+Add</button>
+        </div>
+    </div>
 
-			</div>
-			<button id="addBtn">+Add</button>
-		</div>
-	</div>
+    <div class="footer">
+        <button class="submitButton">Generate CV</button>
+    </div>
 
-	</div>
 </body>
+<script src="ResumePage.js"></script>
 
 </html>
